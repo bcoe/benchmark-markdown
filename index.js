@@ -85,7 +85,7 @@ MB.prototype.benchmark = function(doc, cb) {
       if (timer.duration > longest) {
         longest = timer.duration;
         longestName = doc.name;
-      }s
+      }
 
       //if (output) console.log(output.html());
       console.log('BENCHMARK AVG = ', total / count, ' LONGEST = ', longest, longestName, ' this cycle = ', timer.duration);
